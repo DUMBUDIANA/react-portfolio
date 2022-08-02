@@ -1,0 +1,22 @@
+.portfolio{text-align: center;}
+ul{list-style: none;display: flex;flex-direction: row;justify-content: center;}
+
+h1{font-size: 50px;}
+.container{display: flex;align-items: center;justify-content: center ;flex-wrap: wrap;
+
+
+
+}
+.item{width: 30%;position: relative;cursor: pointer;transition: all;height: 100%;transition:all .5 ease;
+
+    &.hover{background-color: black;}
+
+}
+h3{position: absolute;font-size: 20px;top: 30%;left: 30%;}
+.pic{width: 80%;margin-bottom: 50px;object-fit: cover;z-index: 1;opacity: 0.2;z-index: 0;
+
+
+    
+
+}
+.item & .hover{background-color: black;}

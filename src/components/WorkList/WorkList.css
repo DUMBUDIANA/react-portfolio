@@ -1,0 +1,10 @@
+.list{display: flex;flex-direction: wrap;justify-content: space-between;width: 100%;
+
+    margin-top: 0%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.project{width: 65%;}
+.heading-work{text-align: center;font-family: 'Uchen', serif;margin-top: 10%;}

@@ -1,0 +1,61 @@
+/* .left{margin-top: 30%;} */
+/* .mail{margin-top: 30px;margin-bottom: 30px;}
+.line{width: 20px;height: 75%;background-color: #59b256;
+    position: absolute;
+    
+    }
+    section{margin-top: 35px;}
+    .container{margin-top: 10%;}
+    
+    .right{margin-top: -28%;}
+    form{width:70%} */
+
+    .contact-section{margin-top: 8%;margin-bottom: 10%;}
+    .button{background-color: #59b256;margin-top: 30px;font-family: 'Uchen', serif;}
+    form{width:70%;margin-top:5%}
+    p{font-family: 'Uchen', serif;font-size: 20px;margin-right:40%}
+    h1{font-family: 'Uchen', serif;margin-bottom: 8%;}
+    .flex{display: flex;flex-direction: row;}
+    .last{}
+    span{margin-right: 3%;}
+
+
+    /* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {  
+
+    form{width:100%;}
+    p{margin-right:0%}
+
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (max-width: 768px) {  
+
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+   
+
+ 
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    
+}
+ 
+/* Extra extra large devices (extra large desktops, 1400px and up) */
+@media (min-width: 1400px) {  
+    
+}
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+ 
+/* Set width to make card deck cards 100% width */
+@media (max-width: 950px) { 
+ 
+}

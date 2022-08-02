@@ -1,0 +1,80 @@
+.portfolio {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+li {
+  font-size: 15px;
+  margin-right: 40px;
+  padding: 7px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+li .active {
+  background-color: yellow;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.item {
+  width: 30%;
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: all;
+  transition: all;
+  height: 100%;
+  -webkit-transition: all .5 ease;
+  transition: all .5 ease;
+}
+
+.item.hover {
+  background-color: black;
+}
+
+h3 {
+  position: absolute;
+  font-size: 20px;
+  top: 30%;
+  left: 30%;
+}
+
+.pic {
+  width: 80%;
+  margin-bottom: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 1;
+  opacity: 0.2;
+  z-index: 0;
+}
+/*# sourceMappingURL=Port.css.map */
